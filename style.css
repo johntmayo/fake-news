@@ -1,5 +1,11 @@
+body {
+  border-style: solid;
+  border-width: thin;
+}
+
 #header {
-  display: inline-flex;
+  display:  flex;
+  position: relative;
   width: 100%;
   font-family: Verdana;
   font-size: 14px;
@@ -64,9 +70,16 @@ a {
   flex-direction: column;
   width: 240px;
   border-style: solid;
+
 }
 
-.border {
-  border-style: solid;
-  border-width: thin;
+.main-headline {
+  display: flex;
+}
+
+.main-headline, img {
+  display: flex;
+  justify-content: flex start;
+  align-items: flex-start;
+  flex-shrink: 2;
 }
