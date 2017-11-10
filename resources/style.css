@@ -1,6 +1,12 @@
-* {
+div {
   border-style: solid;
   border-width: thin;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 #header {
@@ -79,7 +85,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  background-image: url("./images/img-story-main.png");
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
@@ -89,32 +95,28 @@ a {
 
 .main-headline, img {
   display: flex;
-  justify-content: flex start;
-  align-items: flex-start;
-  flex-shrink: 2;
+  justify-content: center;
+  align-items: center;
 }
 
 .backwards {
-  display: inline-flex;
   background-image: url("./images/img-story-2.PNG");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  order: 8;
+  height: 300px;
+  text-align: center;
 }
 
 .research {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-image: url("./images/img-story-3.PNG");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   height: 300px;
+  text-align: center;
 }
 
 .orca, .burger {
@@ -123,8 +125,13 @@ a {
   color: black;
 }
 
-p {
+.cats {
+  text-align: center;
+  background-image: url("./images/img-story-1.png");
+  height: 300px;
   font-family: Georgia;
-  font-size: 17px;
-  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
 }
