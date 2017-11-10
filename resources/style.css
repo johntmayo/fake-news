@@ -142,22 +142,24 @@ a {
         font-size: 16px;
         font-weight: bold;
         text-align: center;
+        margin-bottom: 41px;
       }
 
       .news-bites-list {
         display: block;
-        align-items: flex-end;
-      }
+        flex-direction: column;
+        align-items: stretch;
+}
 
       .news-bites-list p {
         display: block;
+        padding: 11px 20px;
+        border-bottom: 1px solid black;
+        background-color: WhiteSmoke;
         font-family: Verdana;
         font-size: 12px;
         color: DimGray;
-        background-color: WhiteSmoke;
-        border-bottom: 1px solid black;
-        border-width: thin;
-        padding: 11px 20px;
+        margin: 0px;
       }
 
 
