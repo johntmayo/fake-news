@@ -25,9 +25,9 @@ p {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 14px;
   padding-left: 10px;
-  font-family: Garamond, serif;
+  font-family: Verdana, serif;
   }
 
 #logo {
@@ -53,6 +53,7 @@ a {
   width: 100%;
   height: 100%;
   justify-content: space-between;
+  padding-top: 25px;
 }
 
 /* **************** COLUMNS ******************* */
@@ -76,6 +77,12 @@ a {
           font-size: 40px;
           color: white;
         }
+
+        .main-headline span {
+          margin-left: 20px;
+
+        }
+
 
         .main-headline, img {
           display: flex;
@@ -165,6 +172,9 @@ a {
 
 .cats {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("./images/img-story-1.png");
   height: 300px;
   font-family: Georgia;
@@ -179,17 +189,44 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  position: inherit;
   width: 100%;
   background-color: MediumAquamarine;
   margin: auto;
+  margin-top: 60px;
   font-family: Verdana;
   font-size: 12px;
+  height: 300px;
 }
+
+/*footer, nav {
+  display: inline-block;
+}*/
 
 #mytimes-footer {
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.info {
+  display: block;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
 }
